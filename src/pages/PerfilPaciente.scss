@@ -1,0 +1,358 @@
+/*LAYOUT*/
+.container {
+  width: 30%;
+  max-width: 600px;
+  margin: 60px auto;
+  font-family: "Montserrat", sans-serif;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+/*header página*/
+header.main-header {
+  padding: 0 15px;
+  height: 56px;
+  background: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .icon-bars {
+  width: 30px;
+  height: 20px;
+}
+
+header .icon {
+  width: 30px;
+  height: 25px;
+}
+
+header .icon-bell {
+  margin-left: 10px;
+}
+
+header .logo-img {
+  margin-left: 10px;
+  width: 100px;
+}
+
+/*Dados- Paciente*/
+main.dados-paciente {
+  margin: 30px 20px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+/*Header Dados*/
+main.dados-paciente .header-card-paciente {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main.dados-paciente .icon-user {
+  width: 20px;
+  height: 18px;
+  margin: 0 20px;
+}
+main.dados-paciente .alert-red {
+  width: 115px;
+  height: 20px;
+  border-radius: 4px;
+  border: solid 1px #f56565;
+  background-color: #fc8181;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.dados-paciente .alert-red h5 {
+  width: 80px;
+  height: 16px;
+  font-size: 10px;
+  font-weight: 500;
+  padding-top: 2px;
+}
+
+main.dados-paciente .alert-red .x-alert {
+  border: 1px solid white;
+  border-radius: 1px;
+}
+/*Dados Nome e Sintomas*/
+main .card-ficha-paciente {
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  display: block;
+}
+main .card-ficha-paciente .item-card-paciente {
+  width: 100%;
+  height: 30px;
+  background-color: #ebf8ff;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 5px;
+}
+main .card-ficha-paciente .item-card-paciente h4 {
+  width: 145px;
+  height: 30px;
+  font-size: 14px;
+  color: #2b6cb0;
+}
+main .card-ficha-paciente .item-card-paciente .ficha-paciente {
+  width: 140px;
+  height: 20px;
+  border-radius: 4px;
+  border: solid 1px #e2e8f0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+main .card-ficha-paciente .item-card-paciente .ficha-paciente p {
+  height: 14px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #2b6cb0;
+  padding-top: 2px;
+  margin: 0 auto;
+}
+main .card-ficha-paciente .item-card-nome {
+  height: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #42474a;
+  margin: 5px;
+}
+main .card-ficha-paciente .item-card-sintomas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+main .card-ficha-paciente .item-card-sintomas h6 {
+  height: 26px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #42474a;
+  padding: 5px;
+}
+main .card-ficha-paciente .item-card-sintomas p {
+  width: 109px;
+  height: 24px;
+  border-radius: 100px;
+  border: solid 1px #e2e8f0;
+  background-color: #eff4f6;
+  text-align: center;
+}
+main .card-ficha-paciente .item-card-sintomas p span {
+  width: 85px;
+  height: 16px;
+  font-size: 12.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  color: #42474a;
+}
+/*Cards Passos-*/
+
+main .card-item:first {
+  margin-top: 50px;
+}
+
+main .card-item {
+  height: 30px;
+  background-color: white;
+  color: #2b6cb0;
+  margin: 10px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+main .card-item h4 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+}
+
+/*4º ITEM*/
+.card-container {
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  padding-bottom: 5px;
+}
+main .selecionado {
+  background: #eff4f6;
+}
+/*5º ITEM*/
+main card.card-inativo {
+  opacity: 0.4;
+}
+
+/*MEDICAÇÃO*/
+main .medicacao {
+  margin: 0 10px;
+  border-radius: 4px;
+  border: solid 1px #e2e8f0;
+  margin-bottom: 10px;
+}
+main .medicacao .alert {
+  background-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  justify-content: center;
+}
+main .medicacao .alert .icon-alert {
+  width: 20px;
+  height: 20px;
+  margin: center;
+  margin-right: 15px;
+}
+main .medicacao .alert .medicacao-alert {
+  color: #42474a;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+}
+
+/*Alteplace*/
+main .card-container .alteplase {
+  height: 63px;
+  background-color: #eff4f6;
+  text-align: left;
+}
+main .card-container .alteplase .alteplase-text {
+  height: 60px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 15px;
+  color: #42474a;
+}
+
+main .card-container .alteplase .alteplase-text span {
+  font-weight: 700;
+}
+
+main .border-alteplace-top {
+  border-top: solid 1px #e2e8f0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: #42474a;
+  padding: 10px 15px;
+}
+/*Cálculo*/
+main form legend h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #42474a;
+  margin-bottom: 20px;
+}
+form fieldset {
+  border: 0;
+}
+form fieldset.peso {
+  width: 148px;
+  height: 56px;
+  float: left;
+  margin-left: 10px;
+}
+form fieldset.peso label {
+  height: 18px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #1a202c;
+  margin: 5px;
+}
+form fieldset.peso input {
+  height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #a0aec0;
+  border: 0;
+  border-bottom: 2px solid #a0aec0;
+  padding: 5px;
+}
+
+form.calculo {
+  padding: 10px 15px;
+}
+
+form.calculo button {
+  float: right;
+  height: 36px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  background-color: #e2e8f0;
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+form.calculo button span {
+  height: 22px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  color: white;
+}
+.clear {
+  clear: both;
+}
+
+fieldset.resultado label {
+  height: 31px;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #42474a;
+}
+fieldset.resultado textarea {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  border: solid 1px #e2e8f0;
+  background-color: #f5f5f5;
+  resize: none;
+}
+/*SALVAR*/
+button.salvar {
+  width: 100%;
+  height: 54px;
+  border: 0;
+  background-image: linear-gradient(to top, #2b6cb0, #18abdc);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+button.salvar span {
+  height: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.57;
+  letter-spacing: 1.4px;
+  color: white;
+  margin: 5px;
+}
+button.salvar .icon {
+  margin-right: 15px;
+}
+button.salvar:hover {
+  border: 1px solid white;
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 60%;
+  }
+}
