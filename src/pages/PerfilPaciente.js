@@ -27,15 +27,15 @@ function PerfilPaciente() {
     <div className="container">
       <Header />
       <main className="dados-paciente">
-        <card className="header-card-paciente">
-          <FaUserAlt color={"#2b6cb0"} class="icon-user" />
+        <div className="header-card-paciente">
+          <FaUserAlt color={"#2b6cb0"} className="icon-user" />
           <button className="alert-red">
             <h5>INTERROMPER</h5>
             <FaWindowClose color={"#FFF"} />
           </button>
-        </card>
+        </div>
 
-        <card className="card-ficha-paciente">
+        <div className="card-ficha-paciente">
           <div className="item-card-paciente">
             <h4>Paciente</h4>
             <div className="ficha-paciente">
@@ -52,34 +52,34 @@ function PerfilPaciente() {
               <span>A 45min atrás</span>
             </p>
           </div>
-        </card>
+        </div>
 
-        <card class="card-item card-container">
+        <div className="card-item card-container">
           <h4> 1º - Emergência</h4>
           <div>
             <FaCheck color={"#48bb78"} style={{ marginLeft: 5 }} />
             <FaList color={"#a0aec0"} style={{ marginLeft: 5 }} />
           </div>
-        </card>
+        </div>
 
-        <card class="card-item card-container">
+        <div className="card-item card-container">
           <h4> 2º - Neurologista</h4>
           <div>
             <FaCheck color={"#48bb78"} style={{ marginLeft: 5 }} />
             <FaList color={"#a0aec0"} style={{ marginLeft: 5 }} />
           </div>
-        </card>
+        </div>
 
-        <card class="card-item card-container">
+        <div className="card-item card-container">
           <h4> 3º - Contraindicações</h4>
           <div>
             <FaCheck color={"#48bb78"} style={{ marginLeft: 5 }} />
             <FaList color={"#a0aec0"} style={{ marginLeft: 5 }} />
           </div>
-        </card>
+        </div>
 
-        <div class="card-container">
-          <div class="card-item selecionado">
+        <div className="card-container">
+          <div className="card-item selecionado">
             <h4> 4º - Medicação</h4>
             <FaList color={"#2b6cb0"} style={{ marginLeft: 5 }} />
           </div>
@@ -88,14 +88,14 @@ function PerfilPaciente() {
               <FaExclamationCircle color={"#2b6cb0"} className="icon-alert" />
               <h4 className="medicacao-alert">Medicação Recomendada</h4>
             </div>
-            <div class="alteplase">
+            <div className="alteplase">
               <p className="alteplase-text">
                 <span>ALTERPLASE EV 0,9 MG/KG</span>
                 <br />
                 10% EM BOLUS E 90% EM 1 HORA
               </p>
             </div>
-            <p class="border-alteplace-top">
+            <p className="border-alteplace-top">
               DOSE MÁXIMA DE ALTEPLASE: 90 MG (90 ML)
             </p>
           </div>
@@ -136,10 +136,10 @@ function PerfilPaciente() {
           </form>
         </div>
 
-        <card class="card-item card-container card-inativo">
+        <div className="card-item card-container card-inativo">
           <h4> 5º - Conduta e Desfechos</h4>
           <FaList color={"#2b6cb0"} style={{ marginLeft: 5 }} />
-        </card>
+        </div>
       </main>
 
       <button className="salvar">

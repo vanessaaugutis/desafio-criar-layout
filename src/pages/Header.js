@@ -1,5 +1,5 @@
 import React from "react";
-import "./PerfilPaciente.scss";
+import "./Header.scss";
 import { FaBars, FaBell, FaStopwatch } from "react-icons/fa";
 
 function Header() {
